@@ -1,0 +1,126 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {/
+/* Begin PBXProject section */
+		1D6058900D05DD3D006BFB54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "Your Organization";
+				TargetAttributes = {
+					1D6058910D05DD3D006BFB54 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 1D60589A0D05DD3E006BFB54 /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D60588D0D05DD3D006BFB54;
+			productRefGroup = 1D6058920D05DD3D006BFB54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058910D05DD3D006BFB54 /* YogaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXGroup section */
+		1D60588D0D05DD3D006BFB54 = {
+			isa = PBXGroup;
+			children = (
+				1D6058920D05DD3D006BFB54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D6058920D05DD3D006BFB54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058930D05DD3E006BFB54 /* YogaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058910D05DD3D006BFB54 /* YogaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D60589B0D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "YogaApp" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YogaApp;
+			productName = YogaApp;
+			productReference = 1D6058930D05DD3E006BFB54 /* YogaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin XCBuildConfiguration section */
+		1D60589C0D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.YogaApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1D60589D0D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.YogaApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D60589A0D05DD3E006BFB54 /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D60589C0D05DD3E006BFB54 /* Debug */,
+				1D60589D0D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D60589B0D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "YogaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D60589C0D05DD3E006BFB54 /* Debug */,
+				1D60589D0D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin PBXFileReference section */
+		1D6058930D05DD3E006BFB54 /* YogaApp.app */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = YogaApp.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXFileReference section */
+	};
+	rootObject = 1D6058900D05DD3D006BFB54 /* Project object */;
+}
