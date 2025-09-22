@@ -3,10 +3,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Welcome to Yoga App")
+            Text("🧘‍♂️ Welcome to YogaApp!")
                 .font(.largeTitle)
                 .padding()
-            Text("Your journey to wellness starts here.")
+            Text("Your personal yoga companion.")
                 .font(.title2)
                 .foregroundColor(.gray)
         }
